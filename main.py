@@ -1,3 +1,15 @@
+#!/usr/bin/env python
+
+"""
+Code to grab frames from a webcam, reduce them to edges, 
+colorize the edges, and fade that color with the age of the edges
+
+Intended for projection in the LISB atrium at the UO.
+"""
+
+__version__ = 1.0
+__author__ = "Jonny Saunders"
+
 import cv2
 import numpy as np
 from skimage import img_as_float
